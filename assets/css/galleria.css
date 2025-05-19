@@ -74,8 +74,9 @@
 }
 
 .btn:hover {
-    background-color: lightgrey;
     transform: translateY(-3px);
+    background-color: transparent;
+    border: 2px solid black;
 }
 
 .container-gallery img{
