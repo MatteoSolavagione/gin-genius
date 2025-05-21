@@ -50,10 +50,31 @@
      display: block;
  }
 
- .parent {
-     display: grid;
-     grid-template-columns: repeat(2, 1fr);
-     grid-template-rows: repeat(3, 1fr);
-     grid-column-gap: 30px;
-     grid-row-gap: 30px;
+ .hero-menu {
+     height: 40vh;
+     background-image: url("../img/herococktail.jpg");
+     background-position: center;
+     background-size: cover;
+ }
+
+ .hero-container {
+     border: 3px solid #e6c200;
+     padding-top: 54px;
+     padding-bottom: 54px;
+     margin-left: 2rem;
+     margin-right: 2rem;
+     position: relative;
+     top: 20%;
+     height: 70%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+
+
+ }
+
+ .hero-content h1 {
+     text-transform: uppercase;
+     font-size: 3rem;
+     color: white;
  }
