@@ -78,3 +78,31 @@
      font-size: 3rem;
      color: white;
  }
+
+ .menu-container{
+    max-width: 80vw;
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+ }
+
+ img {
+    width: 100%;
+    aspect-ratio: 1/1;
+    border-radius: 16px;
+
+ }
+
+ .cocktail-card{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    padding: 2rem;
+    border: 2px solid black;
+    border-radius: 16px;
+
+ }
