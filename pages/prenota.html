@@ -1,11 +1,160 @@
 <!DOCTYPE html>
 <html lang="it">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gin&Genius</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/prenota.css">
+    <link rel="icon" href="../assets/img/cocktail.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
-    
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="../index.html" class="logo">GIN&GENIUS</a>
+            <div class="hamburger-menu">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <ul class="nav-links">
+                <li><a href="prenota.html">PRENOTA ORA</a></li>
+                <li><a href="galleria.html">GALLERIA</a></li>
+                <li><a href="cocktail.html">COCKTAIL</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Hero prenota -->
+    <section class="hero-section">
+        <div class="hero-prenota">
+            <h2>contattaci</h2>
+            <h1>Prenota ora!</h1>
+            <p>Vieni a trovarci in Piazza Castello a Torino.
+                Siamo ormai un punto di
+                riferimento per la movida cittadina, con cocktail davvero unici.
+
+            </p>
+            <a href="#prenota">Prenota ora</a>
+
+        </div>
+        <div class="hero-orari">
+            <h3>Orari apertura</h3>
+            <p>
+                <strong>Lunedi:</strong> 17:00 - 01:00<br>
+                <strong>Martedi:</strong> 17:00 - 01:00<br>
+                <strong>Mercoledi:</strong> 17:00 - 01:00<br>
+                <strong>Giovedi:</strong> 17:00 - 02:00<br>
+                <strong>Venerdi:</strong> 17:00 - 03:00<br>
+                <strong>Sabato:</strong> 16:00 - 03:00<br>
+                <strong>Domenica:</strong> Chiuso
+            </p>
+        </div>
+    </section>
+    <section id="prenota">
+        <div class="section-form">
+            <form action="" method="post">
+                <div class="select-people">
+                    <label for="people-number">Numero di persone</label>
+                    <select id="people-number">
+                        <option value="1">1 persona</option>
+                        <option value="2">2 persone</option>
+                        <option value="3">3 persone</option>
+                        <option value="4">4 persone</option>
+                        <option value="5">5 persone</option>
+                        <option value="6">6 persone</option>
+                    </select>
+                </div>
+                <div class="select-time">
+                    <label for="time">Ora</label>
+                    <select id="people-number">
+                        <option value="19:00">19:00</option>
+                        <option value="19:15">19:15</option>
+                        <option value="19:30">19:30</option>
+                        <option value="19:45">19:45</option>
+                        <option value="20:00">20:00</option>
+                        <option value="20:15">20:15</option>
+                        <option value="20:30">20:30</option>
+                        <option value="20:45">20:45</option>
+                        <option value="21:00">21:00</option>
+                        <option value="21:15">21:15</option>
+                        <option value="21:30">21:30</option>
+                    </select>
+                </div>
+                <div class="prenota-button">
+                    <input type="submit" value="Prenotare" name="prenotare">
+                </div>
+
+                <div class="waiting-list-button">
+                    <label for="buttons">Se non trovi disponibilità iscriviti nella lista d'attesa</label>
+                    <input type="submit" value="Lista d'attesa" name="lista">
+                </div>
+                <div class="request-button">
+                    <input type="submit" value="Richiesta di gruppo" name="richiesta">
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <section class="location">
+        <div class="location-title">
+            <h6>vieni a trovarci</h6>
+            <h2>Piazza Castello 113</h2>
+            <h2>Torino, Italia</h2>
+        </div>
+        <div class="location-map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2817.7468153798845!2d7.681620075737215!3d45.07064685961183!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47886d71ae1f3873%3A0x4b6fccc31794fcdd!2sP.za%20Castello%2C%20113%2C%2010121%20Torino%20TO!5e0!3m2!1sit!2sit!4v1748204701814!5m2!1sit!2sit" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-section">
+                <h3>Dove Siamo</h3>
+                <div class="location-info">
+                    <p>Piazza Castello 113</p>
+                    <p>Torino, Italia</p>   
+                </div>
+            </div>
+
+            <div class="footer-section">
+                <h3>Orari di Apertura</h3>
+                <ul class="hours-info">
+                    <li><span class="day">Lunedì:</span> <span>17:00 - 01:00</span></li>
+                    <li><span class="day">Martedì:</span> <span>17:00 - 01:00</span></li>
+                    <li><span class="day">Mercoledì:</span> <span>17:00 - 01:00</span></li>
+                    <li><span class="day">Giovedì:</span> <span>17:00 - 02:00</span></li>
+                    <li><span class="day">Venerdì:</span> <span>17:00 - 03:00</span></li>
+                    <li><span class="day">Sabato:</span> <span>16:00 - 03:00</span></li>
+                    <li><span class="day">Domenica:</span> <span>Chiuso</span></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h3>Contatti</h3>
+                <div class="contact-info">
+                    <p>Telefono: +39 011 123 4567</p>
+                    <p>Email: info@gin&genius.it</p>
+                    <p>Prenotazioni: prenota@gin&genius.it</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container copyright">
+            <p>&copy; 2025 Gin&Genius. Tutti i diritti riservati.</p>
+        </div>
+    </footer>
+    <script src="../assets/js/script.js"></script>
+
+
 </body>
+
 </html>

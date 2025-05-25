@@ -1,0 +1,197 @@
+ .hero-section {
+     height: 100vh;
+     background-image: url("../img/heroprenota.jpeg");
+     background-position: 50%;
+     background-size: cover;
+     position: relative;
+ }
+
+ .hero-prenota {
+     display: flex;
+     flex-direction: column;
+     border: 2px solid #e6c200;
+     background-color: rgba(13, 14, 16, 0.53);
+     width: 40%;
+     height: 70%;
+     position: absolute;
+     top: 10rem;
+     left: 5rem;
+     padding: 1.5rem;
+
+ }
+
+ .hero-prenota h2 {
+     font-size: 1rem;
+     text-transform: uppercase;
+     font-weight: bold;
+     color: #fff;
+
+ }
+
+ .hero-prenota h1 {
+     color: #e6c200;
+     font-size: 2.5rem;
+ }
+
+ .hero-prenota p {
+     color: #fff;
+     font-size: 2rem;
+ }
+
+ .hero-prenota a {
+     margin: 1rem;
+     text-align: center;
+     text-decoration: none;
+     color: #fff;
+     border: 2px solid #fff;
+     text-transform: uppercase;
+     background-color: #e6c200;
+     width: 10rem;
+     align-items: center;
+     padding: 1rem;
+     font-weight: bold;
+
+ }
+
+ .hero-orari {
+     display: flex;
+     flex-direction: column;
+     border: 2px solid #e6c200;
+     width: 40%;
+     height: 60%;
+     position: absolute;
+     top: 10rem;
+     right: 5rem;
+     background-color: rgba(13, 14, 16, 0.53);
+     padding: 4rem;
+ }
+
+ .hero-orari h3 {
+     color: #fff;
+     text-transform: uppercase;
+     font-size: 1rem;
+
+ }
+
+ .hero-orari p {
+     color: #fff;
+     padding: 2rem;
+ }
+
+ strong {
+     color: #e6c200;
+ }
+
+ #prenota {
+     background-color: #160b00;
+     background-position: 100%;
+     background-size: cover;
+     height: 100vh;
+ }
+
+ .section-form {
+     width: 80vw;
+     background-color: #fff;
+     padding: 4rem;
+     position: absolute;
+     margin: 5rem 5rem;
+     height: 80vh;
+ }
+
+ .select-people {
+     display: flex;
+     flex-direction: column;
+     width: 50%;
+     float: left;
+
+ }
+
+ .select-people select {
+     width: 30%;
+     padding: 0.5rem;
+     border-color: lightgrey;
+ }
+
+ .select-time {
+     display: flex;
+     flex-direction: column;
+     width: 50%;
+     float: left;
+     position: relative;
+     left: 2rem;
+
+ }
+
+ .select-time select {
+     width: 30%;
+     padding: 0.5rem;
+     border-color: lightgrey;
+
+
+ }
+
+ input {
+     border: 1px solid #222;
+     background-color: #fff;
+     width: 40vw;
+     padding: 0.5rem;
+     border-radius: 0.2rem;
+     cursor: pointer;
+     font-weight: bold;
+ }
+
+ .prenota-button {
+     position: relative;
+     top: 2rem
+ }
+
+ .waiting-list-button {
+     display: flex;
+     flex-direction: column;
+     position: relative;
+     top: 7rem
+ }
+
+ .request-button {
+     position: relative;
+     top: 8rem
+ }
+
+ .location {
+     background-color: #160b00;
+     background-position: 100%;
+     background-size: cover;
+     height: 110vh;
+ }
+
+ .location-title {
+     width: 80vw;
+     position: absolute;
+     padding-left: 5rem;
+ }
+
+ .location-title h6 {
+     font-weight: bold;
+     font-size: 1rem;
+     color: #fff;
+     text-transform: uppercase;
+ }
+
+ .location-title h2 {
+     color: #e6c200;
+     font-size: 4em;
+ }
+
+ .location-map {
+     margin-left: auto;
+     margin-right: auto;
+     width: 80vw;
+     position: relative;
+     top: 15rem;
+
+
+ }
+
+ iframe{
+    width: 100%;
+ }
