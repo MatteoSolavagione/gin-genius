@@ -64,4 +64,179 @@
  .cocktail-card p {
      font-size: 16px;
  }
- 
+
+ /* MEDIA QUERIES FOR RESPONSIVE DESIGN */
+
+ /* Large Laptops and Desktops (1200px and above) */
+ @media screen and (min-width: 1200px) {
+     .menu-container {
+         width: 60vw;
+         max-width: 1200px;
+     }
+
+     .cocktail-card {
+         width: 30%;
+         margin: 1.5rem;
+     }
+
+     .hero-content h1 {
+         font-size: 4rem;
+     }
+ }
+
+ /* Standard Laptops (992px to 1199px) */
+ @media screen and (max-width: 1199px) and (min-width: 992px) {
+     .menu-container {
+         width: 70vw;
+     }
+
+     .cocktail-card {
+         width: 45%;
+         margin: 1.5rem;
+     }
+
+     .hero-content h1 {
+         font-size: 3.5rem;
+     }
+ }
+
+ /* Tablets (768px to 991px) */
+ @media screen and (max-width: 991px) and (min-width: 768px) {
+     .hero-menu {
+         height: 35vh;
+     }
+
+     .hero-container {
+         margin-left: 1.5rem;
+         margin-right: 1.5rem;
+         padding-top: 40px;
+         padding-bottom: 40px;
+     }
+
+     .hero-content h1 {
+         font-size: 2.5rem;
+     }
+
+     .menu-container {
+         width: 85vw;
+         margin: 40px auto;
+     }
+
+     .cocktail-card {
+         width: 45%;
+         margin: 1rem;
+         padding: 1.2rem;
+     }
+
+     .cocktail-card p {
+         font-size: 15px;
+     }
+ }
+
+ /* Large Phones and Small Tablets (576px to 767px) */
+ @media screen and (max-width: 767px) and (min-width: 576px) {
+     .hero-menu {
+         height: 30vh;
+     }
+
+     .hero-container {
+         margin-left: 1rem;
+         margin-right: 1rem;
+         padding-top: 30px;
+         padding-bottom: 30px;
+         border-width: 2px;
+     }
+
+     .hero-content h1 {
+         font-size: 2rem;
+     }
+
+     .menu-container {
+         width: 90vw;
+         margin: 30px auto;
+     }
+
+     .cocktail-card {
+         width: 50%;
+         margin: 1rem 0;
+         padding: 1rem;
+     }
+
+     .cocktail-card p {
+         font-size: 14px;
+         text-align: center;
+     }
+ }
+
+ /* Small Phones (up to 575px) */
+ @media screen and (max-width: 575px) {
+     .hero-menu {
+         height: 25vh;
+     }
+
+     .hero-container {
+         margin-left: 0.5rem;
+         margin-right: 0.5rem;
+         padding-top: 20px;
+         padding-bottom: 20px;
+         border-width: 2px;
+         top: 15%;
+         height: 60%;
+     }
+
+     .hero-content h1 {
+         font-size: 1.5rem;
+         text-align: center;
+         line-height: 1.2;
+     }
+
+     .menu-container {
+         width: 100vw;
+         margin: 20px auto;
+         flex-direction: column;
+         align-items: center;
+     }
+
+     .cocktail-card {
+         width: 50%;
+         margin: 0.8rem 0;
+         padding: 1rem;
+         aspect-ratio: 4/3;
+         max-width: 350px;
+     }
+
+     .cocktail-card h3 {
+         font-size: 1.2rem;
+         margin: 0.5rem 0;
+     }
+
+     .cocktail-card img{
+        width: 50%
+     }
+
+     .cocktail-card p {
+         font-size: 13px;
+         text-align: center;
+         line-height: 1.4;
+     }
+ }
+
+ /* Extra Small Phones (up to 480px) */
+ @media screen and (max-width: 480px) {
+     .hero-content h1 {
+         font-size: 1.3rem;
+     }
+
+     .cocktail-card {
+         padding: 0.8rem;
+         margin: 0.5rem 0;
+     }
+
+     .cocktail-card h3 {
+         font-size: 1.1rem;
+     }
+
+     .cocktail-card p {
+         font-size: 12px;
+     }
+ }
