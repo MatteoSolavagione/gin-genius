@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gin&Genius</title>
+    <link rel="stylesheet" href="node_modules/modern-normalize/modern-normalize.css">
     <link rel="stylesheet" href="../assets/css/style.css">
     <link rel="stylesheet" href="../assets/css/prenota.css">
     <link rel="icon" href="../assets/img/cocktail.png" type="image/x-icon">
@@ -64,6 +65,7 @@
                 <div class="select-people">
                     <label for="people-number">Numero di persone</label>
                     <select id="people-number">
+                        <option value="">Seleziona numero di persone</option>
                         <option value="1">1 persona</option>
                         <option value="2">2 persone</option>
                         <option value="3">3 persone</option>
@@ -74,7 +76,8 @@
                 </div>
                 <div class="select-time">
                     <label for="time">Ora</label>
-                    <select id="people-number">
+                    <select id="prenotation-time">
+                        <option value="">Seleziona un orario</option>
                         <option value="19:00">19:00</option>
                         <option value="19:15">19:15</option>
                         <option value="19:30">19:30</option>
@@ -91,7 +94,6 @@
                 <div class="prenota-button">
                     <input type="submit" value="Prenotare" name="prenotare">
                 </div>
-
                 <div class="waiting-list-button">
                     <label for="buttons">Se non trovi disponibilità iscriviti nella lista d'attesa</label>
                     <input type="submit" value="Lista d'attesa" name="lista">

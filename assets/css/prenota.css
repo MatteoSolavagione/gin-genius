@@ -107,7 +107,7 @@
  }
 
  .select-people select {
-     width: 30%;
+     width: 50%;
      padding: 0.5rem;
      border-color: lightgrey;
  }
@@ -123,7 +123,7 @@
  }
 
  .select-time select {
-     width: 30%;
+     width: 50%;
      padding: 0.5rem;
      border-color: lightgrey;
 
@@ -141,8 +141,8 @@
  }
 
  .prenota-button {
-     position: relative;
-     top: 2rem
+     display: inline-block;
+     margin-top: 2rem
  }
 
  .waiting-list-button {
@@ -220,12 +220,14 @@
  @media screen and (max-width: 1199px) and (min-width: 992px) {
      .hero-prenota {
          width: 45%;
+         height: 40%;
          left: 3rem;
          padding: 1.2rem;
      }
 
      .hero-orari {
          width: 45%;
+         height: 40%;
          right: 3rem;
          padding: 3rem;
      }
@@ -251,7 +253,7 @@
  }
 
  /* Small Laptops and Large Tablets (768px to 991px) */
- @media screen and (max-width: 991px) and (min-width: 768px) {
+ @media screen and (max-width: 1000px) {
      .hero-section {
          height: auto;
          min-height: 100vh;
