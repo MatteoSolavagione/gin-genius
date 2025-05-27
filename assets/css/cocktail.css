@@ -67,32 +67,24 @@
 
  /* MEDIA QUERIES FOR RESPONSIVE DESIGN */
 
- /* Large Laptops and Desktops (1200px and above) */
- @media screen and (min-width: 1200px) {
-     .menu-container {
-         width: 60vw;
-         max-width: 1200px;
-     }
 
-     .cocktail-card {
-         width: 30%;
-         margin: 1.5rem;
-     }
-
-     .hero-content h1 {
-         font-size: 4rem;
-     }
- }
-
- /* Standard Laptops (992px to 1199px) */
+ /* Tablets (992px to 1199px) (es. Ipad pro) */
  @media screen and (max-width: 1199px) and (min-width: 992px) {
      .menu-container {
          width: 70vw;
      }
 
      .cocktail-card {
-         width: 45%;
+         width: 80%;
          margin: 1.5rem;
+     }
+
+      .cocktail-card p{
+         font-size: 1.5rem;
+     }
+
+      .cocktail-card h3{
+         font-size: 2rem;
      }
 
      .hero-content h1 {
@@ -100,40 +92,9 @@
      }
  }
 
- /* Tablets (768px to 991px) */
- @media screen and (max-width: 991px) and (min-width: 768px) {
-     .hero-menu {
-         height: 35vh;
-     }
 
-     .hero-container {
-         margin-left: 1.5rem;
-         margin-right: 1.5rem;
-         padding-top: 40px;
-         padding-bottom: 40px;
-     }
 
-     .hero-content h1 {
-         font-size: 2.5rem;
-     }
-
-     .menu-container {
-         width: 85vw;
-         margin: 40px auto;
-     }
-
-     .cocktail-card {
-         width: 45%;
-         margin: 1rem;
-         padding: 1.2rem;
-     }
-
-     .cocktail-card p {
-         font-size: 15px;
-     }
- }
-
- /* Large Phones and Small Tablets (576px to 767px) */
+ /* Tablets (576px to 767px) (es. Ipad mini) */
  @media screen and (max-width: 767px) and (min-width: 576px) {
      .hero-menu {
          height: 30vh;
@@ -168,7 +129,7 @@
      }
  }
 
- /* Small Phones (up to 575px) */
+ /* Phones (up to 575px) (es. Iphone XR) */ 
  @media screen and (max-width: 575px) {
      .hero-menu {
          height: 25vh;
@@ -199,10 +160,10 @@
 
      .cocktail-card {
          width: 50%;
-         margin: 0.8rem 0;
-         padding: 1rem;
+         margin: 0.5rem 0;
+         padding: 0.5rem;
          aspect-ratio: 4/3;
-         max-width: 350px;
+         max-width: 400px;
      }
 
      .cocktail-card h3 {
@@ -218,25 +179,5 @@
          font-size: 13px;
          text-align: center;
          line-height: 1.4;
-     }
- }
-
- /* Extra Small Phones (up to 480px) */
- @media screen and (max-width: 480px) {
-     .hero-content h1 {
-         font-size: 1.3rem;
-     }
-
-     .cocktail-card {
-         padding: 0.8rem;
-         margin: 0.5rem 0;
-     }
-
-     .cocktail-card h3 {
-         font-size: 1.1rem;
-     }
-
-     .cocktail-card p {
-         font-size: 12px;
      }
  }
