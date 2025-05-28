@@ -48,7 +48,6 @@
      justify-content: center;
      width: 40%;
      padding: 1.5rem;
-     /* border: 2px solid black; */
      border-radius: 16px;
      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
      transition: 0.3s;
@@ -65,8 +64,7 @@
      font-size: 16px;
  }
 
- /* MEDIA QUERIES FOR RESPONSIVE DESIGN */
-
+ /* MEDIA QUERIES */
 
  /* Tablets (992px to 1199px) (es. Ipad pro) */
  @media screen and (max-width: 1199px) and (min-width: 992px) {
@@ -91,8 +89,6 @@
          font-size: 3.5rem;
      }
  }
-
-
 
  /* Tablets (576px to 767px) (es. Ipad mini) */
  @media screen and (max-width: 767px) and (min-width: 576px) {

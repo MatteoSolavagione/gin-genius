@@ -488,7 +488,7 @@
 
      .location-title h2 {
          font-size: 1.5em;
-         line-height: 1.2;
+         line-height: 1.2; /* Imposta l'altezza di un riquadro di riga nelle modalità di scrittura orizzontale. Nelle modalità di scrittura verticale, imposta la larghezza di un riquadro di riga. */
      }
 
      .location-map {

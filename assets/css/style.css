@@ -1,11 +1,7 @@
-@import url("https://cdn.jsdelivr.net/npm/modern-normalize@3.0.1/modern-normalize.min.css");
-
-/* Reset CSS */
-
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: border-box; /* Imposta come vengono calcolate la larghezza e l'altezza totali di un elemento. */
     font-family: "Montserrat", sans-serif;
 }
 
@@ -15,13 +11,13 @@ body {
     background-color: #f9f9f9;
 }
 
-/* Navbar */
+
 .navbar {
     background-color: rgba(0, 0, 0, 0.8);
     position: fixed;
     width: 100%;
     top: 0;
-    z-index: 1000;
+    z-index: 1000;  /* Imposta l'ordine z di un elemento posizionato e dei suoi discendenti o elementi flex e grid. Gli elementi sovrapposti con un indice z maggiore coprono quelli con uno minore. */
     padding: 1rem 0;
 }
 
@@ -65,7 +61,7 @@ body {
     color: #e6c200;
 }
 
-/* Hamburger Menu */
+
 .hamburger-menu {
     display: none;
     cursor: pointer;
@@ -81,12 +77,11 @@ body {
     width: 100%;
     background-color: #fff;
     border-radius: 2px;
-    transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out; /* definisce un'animazione di transizione per gli elementi HTML a cui viene applicata. */
 }
 
-/* Hamburger active state */
 .hamburger-menu.active .bar:nth-child(1) {
-    transform: translateY(9px) rotate(45deg);
+    transform: translateY(9px) rotate(45deg); /* consente di ruotare, scalare, inclinare o traslare un elemento.  */
 }
 
 .hamburger-menu.active .bar:nth-child(2) {
@@ -97,7 +92,7 @@ body {
     transform: translateY(-9px) rotate(-45deg);
 }
 
-/* Responsive Design */
+
 @media (max-width: 768px) {
     .hamburger-menu {
         display: flex;
@@ -142,7 +137,7 @@ body {
     }
 }
 
-/* Footer */
+
 footer {
     background-color: #222;
     color: #fff;
@@ -167,7 +162,7 @@ footer {
 }
 
 .footer-section h3::after {
-    content: '';
+    content: '';/*  sostituisce il contenuto con un valore generato. Può essere utilizzata per definire cosa viene visualizzato all'interno di un elemento o pseudo-elemento. */
     position: absolute;
     bottom: -8px;
     left: 0;

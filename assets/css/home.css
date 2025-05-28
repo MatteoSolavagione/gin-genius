@@ -1,4 +1,4 @@
-/* Hero Section */
+
 .hero {
     height: 100vh;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://images.unsplash.com/photo-1470337458703-46ad1756a187?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
@@ -21,7 +21,7 @@
     font-size: 4rem;
     margin-bottom: 1rem;
     text-transform: uppercase;
-    letter-spacing: 3px;
+    letter-spacing: 3px; /* Imposta il comportamento della spaziatura orizzontale tra i caratteri del testo. */
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
@@ -48,7 +48,7 @@
     color: #fff;
 }
 
-/* About Section */
+
 .about {
     padding: 5rem 0;
     background-color: #fff;
@@ -101,7 +101,7 @@
     display: block;
 }
 
-/* Responsive styles for mobile */
+/* Media queries for mobile */
 @media (max-width: 768px) {
     .hero h1 {
         font-size: 2.5rem;
